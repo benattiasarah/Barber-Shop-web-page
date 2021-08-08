@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, sans-serif;
+    color:#1d2434;
+}
+.couverture{
+    background-color: #D5B981;
+    display: flex;
+    justify-content: space-between;
+    height:90vh;
+}
+
+.couv-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 15% 0 4%;
+}
+
+.couv-content p, .couv-content .btn{
+    margin: 1rem 0;
+}
+
+.title{
+    color:#1d2434;
+    font-size: 40px;
+    margin: 1rem 0;
+}
+.couv-photo img{
+    width: 100%;
+    float: right;
+}
+
+.btn{
+    background: none;
+    padding: 2% 4%;
+    border: solid 2px  #1d2434;
+    font-size: 18px;
+}
+
+.presentation{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:10% 5%;
+    flex-wrap: wrap;
+}
+
+.presentation img{
+    width: 300px;
+    box-shadow: -50px -50px #1d2434;
+
+}
+
+.about{
+    width:50%;
+    margin-left:50px;
+}
+
+.about span, .about h1,.about p,.about button{
+    margin:2%;
+}
+
+.grey-text{
+    color:rgb(153, 152, 152);
+}
+
+.services, .prices,.team{
+    margin:5%;
+    text-align: center;
+}
+
+
+.hair-styles{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hair-style1{
+    width:20rem;
+    margin:2%;
+    background-color: rgb(245, 240, 240);
+
+}
+
+.hair-styles img{
+    width:100%
+}
+
+.hair-styles h2, .hair-styles p, .hair-styles button{
+    margin:5%;
+}
+
+.price-cards{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price-card{
+    display: flex;
+    background-color:rgb(245, 240, 240);
+    width: 250px;
+    height: 100px;
+    margin:1.5%;
+}
+
+.price{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: center;
+    margin:5%;
+}
+
+
+.opinion{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/testimonial-bg.jpg);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.opinion-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height:90vh;
+    width: 50%;
+}
+
+.opinion-content p{
+    margin:3% 0;
+}
+
+.white-text{
+    color:white;
+}
+.client-name{
+    color:rgb(255, 200, 20);
+    font-weight: bold;
+}
+
+.opinion-content img{
+    border-radius: 125px;
+}
+
+.arrow{
+    color:rgb(255, 200, 20);
+    font-weight: bold;
+    font-family:cursive;
+    font-size: 50px;
+    background-color: rgb(39, 39, 39);
+    padding:0 20px 4px 20px;
+    display:inline-block;
+    margin:60px 5px 0;
+}
+
+.no-margin-left{
+    margin-left:0 !important;
+}
+
+.expert{
+    margin:3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.expert-card{
+    width: 250px;
+    margin:1.5%;
+}
+
+.expert-card img{
+    width:100%;
+}
+
+.expert-description{
+    width:90%;
+    padding:30px 0;
+    background-color: rgb(245, 240, 240);
+    text-align: center;
+    position: relative ;
+    top:-15%;
+    left:5%;
+    z-index:1;
+}
+
+.contact{
+    background-color:#1d2434;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.contact img{
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:3%;
+}
+
+input,textarea{
+    background-color:transparent;
+    border-style: none none solid none;
+    border-width: 1px;
+    width:100%;
+    border-color: rgb(255, 255, 138);
+    margin:5px;
+
+}
+
+input{
+    height: 40px;
+}
+
+::placeholder {
+    font-size: 1.5em;
+  }
+
+.submit-btn{
+    color:rgb(255, 255, 138);
+    font-size: 1.2em;
+    border-color: rgb(255, 255, 138);
+    background-color:transparent;
+    padding: 15px 25px;
+    margin:15px;
+}
+
+
+
