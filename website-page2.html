@@ -1,216 +1,352 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website page 2</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="couverture">
-            <div class="couv-content">
-                <h1 class="title">Template for salon <br> Website</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem illum minima ratione ab. Culpa sint eligendi dolores.</p>
-                <button class='btn'>Download Now</button>
-            </div>
-            <div class="couv-photo">
-                <img src="img/hero.png" alt="">
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="presentation">
-            <img src="img/about.jpg" alt="">  
-            <div class="about">
-                <span class="grey-text">Learn About Us</span>
-                <h1 class='title'>25 Years Experience</h1>
-                <p class="grey-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. At aspernatur deserunt velit vero provident, culpa et minus, amet incidunt quia delectus suscipit cupiditate! Sunt maxime cupiditate laboriosam odit rem amet.</p>
-                <p class="grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At aspernatur deserunt velit vero provident, culpa et minus, amet incidunt quia delectus suscipit cupiditate! Sunt maxime cupiditate laboriosam odit rem amet.</p>
-                <button class='btn'>learn more</button>    
-            </div>
-        </div>
-        <div class="services">
-            <span class="grey-text">our salon services</span>
-            <h1 class='title'>Best Salon and Barber<br>Services for You</h1>
-            <div class="hair-styles">
-                <div class="hair-style1">
-                    <img src="img/service-1.jpg" alt="service photo 1">
-                    <h2>Hair Cut</h2>
-                    <p class="grey-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat id illo inventore.</p>
-                    <button class="btn">learn more</button>
-                </div>
-                <div class="hair-style1">
-                    <img src="img/service-2.jpg" alt="service photo 2">
-                    <h2>Beard Style</h2>
-                    <p class="grey-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat id illo inventore.</p>
-                    <button class="btn">learn more</button>
-                </div>                
-                <div class="hair-style1">
-                    <img src="img/service-3.jpg" alt="service photo 3">
-                    <h2>Color & Wash</h2>
-                    <p class="grey-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat id illo inventore.</p>
-                    <button class="btn">learn more</button>
-                </div>
-            </div>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, sans-serif;
+    color:#1d2434;
+}
+.couverture{
+    background-color: #D5B981;
+    display: flex;
+    justify-content: space-between;
+    height:90vh;
+}
 
-        </div>
-        <div class="prices">
-            <span class='grey-text'>Our Best Pricing</span>
-            <h1 class='title'>We Provide Best Price <br>in the City</h1>
-            <div class='price-cards'>
-                <div class="price-card">
-                    <img src="img/price-1.jpg" alt="price photo 1">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-2.jpg" alt="price photo 2">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-3.jpg" alt="price photo 3">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-4.jpg" alt="price photo 4">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-5.jpg" alt="price photo 5">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-6.jpg" alt="price photo 6">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-7.jpg" alt="price photo 7">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-8.jpg" alt="price photo 8">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-9.jpg" alt="price photo 9">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-10.jpg" alt="price photo 10">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-11.jpg" alt="price photo 11">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-                <div class="price-card">
-                    <img src="img/price-12.jpg" alt="price photo 12">
-                    <div class='price'>
-                        <h4>Hair Cut</h4>
-                        <p>$9.99</p>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div class="opinion">   
-            <div class="opinion-content">
-                <img src="img/testimonial-1.jpg" alt="men">
-                <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic impedit nisi nostrum sit facilis aut ipsa deleniti maiores, distinctio praesentium, quae accusantium aspernatur? Expedita, maiores! Id sapiente nisi reprehenderit ullam!</p>
-                <span class='client-name'>Client Name</span>
-                <span class="white-text">Profession</span> 
-                <div >
-                    <span class="arrow no-margin-left"><</span>
-                    <span class="arrow">></span> 
-                </div>        
-            </div>
-        </div> 
-        <div class="team">
-            <span class="grey-text">Our Barber Team</span>
-            <h1 class='title'>Meet Our Hair Cut<br>Expert Barber</h1>
-            <div class="expert">
-                <div class="expert-card">
-                    <img src="img/team-1.jpg" alt="">
-                    <div class="expert-description">
-                        <h3>Adam Philips</h3>
-                        <p>Master Barber</p>
-                    </div>
-                </div>
-                <div class="expert-card">
-                    <img src="img/team-2.jpg" alt="">
-                    <div class="expert-description">
-                        <h3>Dylan Adams</h3>
-                        <p>Hair Expert</p>
-                    </div>
-                </div>
-                <div class="expert-card">
-                    <img src="img/team-3.jpg" alt="">
-                    <div class="expert-description">
-                        <h3>gloria Edwards</h3>
-                        <p>Beard Expert</p>
-                    </div>
-                </div>
-                <div class="expert-card">
-                    <img src="img/team-4.jpg" alt="">
-                    <div class="expert-description">
-                        <h3>Josh Dunn</h3>
-                        <p>Color Expert</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="contact">
-            <img src="img/contact.jpg" alt="">
-            <form>
-                <input type="text" name="name" placeholder="Your Name">
-                <input type="email" name="email" placeholder="Your Email">
-                <input type="text" name="subject" placeholder="Subject">
-                <textarea name="message" cols="90" rows="7" placeholder="Message"></textarea> 
-                <button class='submit-btn no-margin-left' type="input" >Send Message</button>               
-            </form>
-        </div>
+.couv-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 15% 0 4%;
+}
 
-        <div class="discover"></div>
-    </main>
-    <footer>
-        <div class="adress">
-      
-        </div>
-        <div class="links"></div>
-        <div class="newsletter"></div>
-    </footer>
-</body>
-</html>
+.couv-content p, .couv-content .btn{
+    margin: 1rem 0;
+}
+
+.title{
+    color:#1d2434;
+    font-size: 40px;
+    margin: 1rem 0;
+}
+.couv-photo img{
+    width: 100%;
+    float: right;
+}
+
+.btn{
+    background: none;
+    padding: 2% 4%;
+    border: solid 2px  #1d2434;
+    font-size: 18px;
+}
+
+.presentation{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:10% 5%;
+    flex-wrap: wrap;
+}
+
+.presentation img{
+    width: 300px;
+    box-shadow: -50px -50px #1d2434;
+
+}
+
+.about{
+    width:50%;
+    margin-left:50px;
+}
+
+.about span, .about h1,.about p,.about button{
+    margin:2%;
+}
+
+.grey-text, .blog-card-content span i{
+    color:rgb(153, 152, 152);
+}
+
+.services, .prices,.team,.discover{
+    margin:5%;
+    text-align: center;
+}
+
+
+.hair-styles{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hair-style1{
+    width:20rem;
+    margin:2%;
+    background-color: rgb(245, 240, 240);
+
+}
+
+.hair-styles img{
+    width:100%
+}
+
+.hair-styles h2, .hair-styles p, .hair-styles button{
+    margin:5%;
+}
+
+.price-cards{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price-card{
+    display: flex;
+    background-color:rgb(245, 240, 240);
+    width: 250px;
+    height: 100px;
+    margin:1.5%;
+}
+
+.price{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: center;
+    margin:5%;
+}
+
+
+.opinion{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/testimonial-bg.jpg);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.opinion-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height:90vh;
+    width: 50%;
+}
+
+.opinion-content p{
+    margin:3% 0;
+}
+
+.white-text{
+    color:white;
+}
+.client-name{
+    color:rgb(255, 200, 20);
+    font-weight: bold;
+}
+
+.opinion-content img{
+    border-radius: 125px;
+}
+
+.arrow{
+    color:rgb(255, 200, 20);
+    font-weight: bold;
+    font-family:cursive;
+    font-size: 50px;
+    background-color: rgb(39, 39, 39);
+    padding:0 20px 4px 20px;
+    display:inline-block;
+    margin:60px 5px 0;
+}
+
+.no-margin-left{
+    margin-left:0 !important;
+}
+
+.expert{
+    margin:3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.expert-card{
+    width: 250px;
+    margin:1.5%;
+}
+
+.expert-card img{
+    width:100%;
+}
+
+.expert-description{
+    width:90%;
+    padding:30px 0;
+    background-color: rgb(245, 240, 240);
+    text-align: center;
+    position: relative ;
+    top:-15%;
+    left:5%;
+    z-index:1;
+}
+
+.contact{
+    background-color:#1d2434;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.contact img{
+    width: 500px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:3%;
+}
+
+.contact input,.contact textarea{
+    background-color:transparent;
+    border-style: none none solid none;
+    border-width: 1px;
+    width:100%;
+    border-color: rgb(255, 255, 138);
+    margin:5px;
+
+}
+
+.contact input{
+    height: 40px;
+}
+
+::placeholder {
+    font-size: 1.5em;
+  }
+
+.contact .submit-btn{
+    color:rgb(255, 255, 138);
+    font-size: 1.2em;
+    border-color: rgb(255, 255, 138);
+    background-color:transparent;
+    padding: 15px 25px;
+    margin:15px;
+}
+
+/*white border*/
+
+.aa img{
+    position:relative;
+    z-index:1;
+}
+.aa{
+    position:relative;
+}
+
+.bb{
+    height:363px;
+    width:100%;
+    border:2px solid rgb(255, 255, 255);
+    position:absolute;
+    z-index:3;
+    top:-15px;
+    left:-15px;
+}
+
+/*end white bprder*/
+
+.blogs{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-card{
+    width:350px;
+    background-color: rgb(245, 240, 240);
+    text-align: start;
+    margin:2%;
+    
+}
+.blog-card img{
+    width:100%;
+}
+.blog-card-content{
+    padding:1%;
+}
+.blog-card-content span, .blog-card-content h4, .blog-card-content p{
+    margin:4% !important;
+}
+
+i{
+    margin:0 20px 0 0;
+}
+
+.arrow2{
+    color:#D5B981;
+    font-weight: bold;
+    font-family:cursive;
+    font-size: 40px;
+    background-color: #1d2434;
+    padding:0 20px 4px 20px;
+    display:inline-block;
+    margin:20px 5px 0;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    background-color: #1d2434;
+    padding:5%;
+}
+
+.adress,.links, .newsletter{
+    width:400px;
+    display:flex;
+    flex-direction:column ;
+
+
+}
+
+.footer h3, .footer span,.footer p, .email{
+    margin: 10px 0;
+}
+
+.footer span, .footer p{
+    color:grey;
+}
+.footer i{
+    color:grey;
+}
+.footer h3, .social i{
+    color:#D5B981;
+
+}
+
+.email{
+    padding:5px;
+    background-color: white;
+}
+.email input{
+    border:none;
+    height:40px;
+    width:70%;
+}
+
+.email button{
+    border:2px solid black;
+    height:40px;
+    background-color: white;
+    width:28%;
+    font-size: 1.2em;
+}
